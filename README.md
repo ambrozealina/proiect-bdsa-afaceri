@@ -3,11 +3,11 @@
 # git clone
 
 ```bash
-git clone https://github.com/daniionescu/proiect-bdsa.git
+git clone https://github.com/ambrozealina/proiect-bdsa-afaceri.git
 ```
 
 ```bash
-cd proiect-bdsa
+cd proiect-bdsa-afaceri
 ```
 
 ```bash
@@ -21,7 +21,7 @@ Pentru a configura serviciul mysql -> https://tutoriale.webtech-superheroes.net/
 # import baza de date
 
 ```sql
-source ~/environment/proiect-bdsa/sql/catalog.sql
+source ~/environment/proiect-bdsa-afaceti/sql/catalog.sql
 ```
 
 ```sql
