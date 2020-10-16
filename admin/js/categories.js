@@ -34,7 +34,7 @@ function addRecord() {
     $('#name').val('');
     $('#description').val('');
     
-    $('#myModalLabel').html('Add New Category');
+    $('#myModalLabel').html('Adauga Categorie');
   //  $('#add_new_record_modal').modal('show');
 }
 
@@ -46,7 +46,7 @@ function viewRecord(id) {
         $('#name').val(data.name);
         $('#description').val(data.description);
 
-        $('#id').val(id);
+        $('#id').val(data.id);//
         $('#myModalLabel').html('Edit Category');
         
         $('#add_new_record_modal').modal('show');
@@ -90,6 +90,7 @@ function updateRecord(formData) {
         },
         data: formData,
         success: function(data) {
+            $('#row_id_'+formData.id+'>td.id').html(formData.id);
             $('#row_id_'+formData.id+'>td.name').html(formData.name);
             $('#row_id_'+formData.id+'>td.description').html(formData.description);
             $('#add_new_record_modal').modal('hide');
