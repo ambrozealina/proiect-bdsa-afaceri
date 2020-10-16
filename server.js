@@ -3,7 +3,7 @@ var Sequelize = require("sequelize")
 
 //connect to mysql database
 //baza de date, username, password
-var sequelize = new Sequelize('catalog', 'ionescud', 'passw', {
+var sequelize = new Sequelize('catalog', 'ambroze', 'passw', {
     dialect:'mysql',
     host:'127.0.0.1'
 })
