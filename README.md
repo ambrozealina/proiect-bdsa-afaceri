@@ -3,7 +3,7 @@
 # git clone
 
 ```bash
-git clone https://github.com/csie-afacerielectronice/bdsa-product-catalog.git
+git clone https://github.com/daniionescu/proiect-bdsa.git
 ```
 
 ```bash
