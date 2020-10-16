@@ -1,4 +1,4 @@
-# bdsa-product-catalog
+# proiect-bdsa
 
 # git clone
 
@@ -7,7 +7,7 @@ git clone https://github.com/daniionescu/proiect-bdsa.git
 ```
 
 ```bash
-cd bdsa-product-catalog
+cd proiect-bdsa
 ```
 
 ```bash
@@ -21,17 +21,7 @@ Pentru a configura serviciul mysql -> https://tutoriale.webtech-superheroes.net/
 # import baza de date
 
 ```sql
-source ~/environment/bdsa-product-catalog/sql/catalog.sql
-```
-
-# import date
-
-```sql
-INSERT INTO categories (name, description) VALUES ('Carti','Cele mai tari carti');
-```
-
-```sql
-INSERT INTO products (name, description, category_id, price) VALUES ('Clean Code', 'Make code great again!', 1, 100);
+source ~/environment/proiect-bdsa/sql/catalog.sql
 ```
 
 ```sql
